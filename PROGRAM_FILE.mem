@@ -1,0 +1,10 @@
+00101000  //// Go to Idle State
+01101001  //// Add 1010 (4112) to accumulator
+05000002  //// Move Accumulator Data to Address 2 of Memory
+05000003  //// Move Accumulator Data to Address 3 of Memory
+06101003  //// Add content of Memory [3] with (16'h1010 -> 16'd4112) and Store in Accumulator
+07000102  //// Subtract content of Memory [2] with (16'h0001 -> 16'd0001)and Store in Accumulator
+09000303  //// Divide content of Memory [3] with (16'h0003 -> 16'd0003) and Store in Accumulator
+05000005  //// Move Accumulator Data to Address 5 of Memory
+08000503  //// Multiply content of Memory [3] with (16'h0005 -> 16'd0005) and Store in Accumulator
+05000004  //// Move Accumulator Data to Address 4 of Memory
